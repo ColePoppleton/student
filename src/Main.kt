@@ -1,8 +1,8 @@
 var students = mutableListOf<student>()
 
 fun main(){
-    val cole = student("cole", "cs", 90, 1)
-    val bob = student("Bob", "cs", 80, 2)
+    val cole = Masters("cole", "cs", 90, 1)
+    val bob = Undergraduate("Bob", "cs", 80, 2)
     students.add(cole)
     students.add(bob)
     menu()

@@ -15,18 +15,6 @@ open class student (val name:String, val course:String, val markIn: Int, val id:
         Marks = markIn
     }
 
-    fun getName() : String{
-        return name
-    }
-
-    fun getCourse() : String{
-        return course
-    }
-
-    fun getMark() : Int{
-        return Marks
-    }
-
     fun String.isValidInt()
             = try {
         toInt().toString() == this
